@@ -9,6 +9,7 @@ import { Content } from "@components/Content";
 import { Accordion } from "@components/Accordion";
 import { MotionBTTContainer } from "@components/Motion";
 import SEO from "@components/SEO/SEO";
+import { accordionData, faqData } from "@components/Accordion/accordionData";
 import {
     CardBody,
     CardGroup,
@@ -16,13 +17,14 @@ import {
     CardImage,
     Card
 } from "@components/Card";
+import ScrollToTopBtn from "@components/ScrollToTopBtn";
 
 export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="NutriTrack - A landing page template 🚀"
-                description="Discover NutriTrack, the effortless way to plan your meals with the power of Notion. Streamline your nutrition journey and achieve your health goals with ease."
+                title="ProPulse Nursing- Propelling Your Nursing Career Forward.🚀"
+                description="Propelling aspiring nurses to success through comprehensive and accelerated NCLEX preparation."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
@@ -41,16 +43,17 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Simplify Your Nutrition Journey with NutriTrack
+                                Why ProPulse?
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Hey there! Welcome to NutriTrack, the
-                                    ultimate nutrition meal planner powered by
-                                    Notion. We&apos;ve got some awesome features
-                                    lined up to make your nutrition journey a
-                                    piece of cake (pun intended). Check them
-                                    out:
+                                    At ProPulse Nursing Prep, we understand the
+                                    importance of achieving success in your
+                                    nursing career. Our tailored Next Generation
+                                    NCLEX preparation program, coupled with
+                                    personalized mentoring, is designed to
+                                    propel you toward triumph. Here's what sets
+                                    us apart:
                                 </p>
                             </Content>
                             <ContentImage />
@@ -69,16 +72,16 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Master Your Meal Planning and Nutrition Journey
+                                What We Offer:{" "}
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Our comprehensive Notion template designed
-                                    to empower you on your meal planning and
-                                    nutrition journey. With our user-friendly
-                                    features, customizable layouts, and seamless
-                                    recipe integration, taking control of your
-                                    meals has never been easier.
+                                    Our comprehensive Next Generation NCLEX
+                                    course is designed to propel you to the next
+                                    level of your nursing journey. We are fully
+                                    committed to mentor you to achieve this
+                                    goal. We will work with you as a team
+                                    towards this common goal.
                                 </p>
                             </Content>
                             <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2">
@@ -89,17 +92,20 @@ export default function Home() {
                                             alt="Customizable Layouts image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Customizable Layouts
+                                            Live Sessions
                                         </CardHeader>
                                         <p>
-                                            Personalize your meal planning
-                                            experience with our flexible
-                                            layouts. Tailor your sections,
-                                            categories, and tabs to suit your
-                                            unique style and organization
-                                            preferences. Our template adapts to
-                                            your needs, providing a seamless and
-                                            personalized planning experience.
+                                            Get taught by experts and clear your
+                                            doubts in real-time through live
+                                            question and answer sessions
+                                        </p>
+                                        <CardHeader className="!text-black !text-2xl !font-bold">
+                                            Practice Exams
+                                        </CardHeader>
+                                        <p>
+                                            Simulate the real exam experience
+                                            with our extensive collection of
+                                            practice exams.
                                         </p>
                                     </CardBody>
                                 </Card>
@@ -109,18 +115,23 @@ export default function Home() {
                                             src="/features3.png"
                                             alt="Progress Tracking image used."
                                         />
+
                                         <CardHeader className="!text-black !text-2xl !font-bold">
-                                            Progress Tracking
+                                            Study Resources
                                         </CardHeader>
                                         <p>
-                                            Celebrate your wins and stay
-                                            motivated on your nutrition journey.
-                                            NutriTrack allows you to monitor
-                                            your progress with weight,
-                                            measurements, and other key metrics.
-                                            Track your improvements over time
-                                            and see the positive impact of your
-                                            healthy choices.
+                                            Access a wealth of study materials,
+                                            including notes, flashcards, and
+                                            more.
+                                        </p>
+                                        <CardHeader className="!text-black !text-2xl !font-bold">
+                                            Mentoring
+                                        </CardHeader>
+                                        <p>
+                                            Receive personalized mentoring from
+                                            experienced professionals who have
+                                            conquered the Next Generation NCLEX
+                                            journey.
                                         </p>
                                     </CardBody>
                                 </Card>
@@ -140,8 +151,8 @@ export default function Home() {
                                 <BadgeIcon icon="twemoji:waving-hand" />
                             </BadgeGroup>
                             <PageTitle className="" type="default">
-                                This is what our customers have to say about
-                                this template
+                                This is what our successful achievers say about
+                                us
                             </PageTitle>
                             <Columns />
                         </SectionContainer>
@@ -163,10 +174,11 @@ export default function Home() {
                                 <br></br>No worries! We&apos;ve got the answers
                                 you need:
                             </PageTitle>
-                            <Accordion />
+                            <Accordion data={faqData} />
                         </SectionContainer>
                     </MotionBTTContainer>
                 </SectionContainer>
+                <ScrollToTopBtn />
             </div>
         </Layout>
     );

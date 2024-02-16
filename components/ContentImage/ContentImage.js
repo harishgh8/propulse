@@ -6,17 +6,33 @@ import { v4 as uuid } from "uuid";
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Effortless Planning",
+        title: "Comprehensive Curriculum",
         content:
-            "Say goodbye to meal planning stress! With NutriTrack, planning your meals becomes a breeze. Our user-friendly Notion template lets you create customized daily or weekly meal plans effortlessly. Enjoy a balanced and nutritious diet without the hassle.",
+            "Dive deep into a meticulously crafted curriculum covering all aspects of the Next Generation NCLEX exam.",
         align: "right",
         image: "/features1.png"
     },
     {
         id: uuid(),
-        title: "Shopping List",
+        title: "Expert Instructors",
         content:
-            "We've got your grocery shopping covered! NutriTrack includes a handy shopping list feature. As you plan your meals, the template automatically generates a comprehensive shopping list. No more forgotten items or aimless wandering in the supermarket. Shopping for healthy ingredients has never been easier!",
+            "Learn from seasoned nursing professionals dedicated to guiding you through every step of your journey.",
+        align: "left",
+        image: "/features2.png"
+    },
+    {
+        id: uuid(),
+        title: "Interactive Learning",
+        content:
+            "Engage in dynamic, interactive sessions that make studying enjoyable and effective.",
+        align: "right",
+        image: "/features2.png"
+    },
+    {
+        id: uuid(),
+        title: "Personalized Support",
+        content:
+            "Benefit from one-on-one mentoring sessions, ensuring you're on the right track to success.",
         align: "left",
         image: "/features2.png"
     }

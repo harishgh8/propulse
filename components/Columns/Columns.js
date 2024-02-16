@@ -26,10 +26,10 @@ const ColumnData = [
     },
     {
         id: uuid(),
-        title: "Kim L.",
+        title: "Miguel J.",
         icon: "carbon:user-avatar-filled-alt",
         content:
-            "I can't imagine my nutrition journey without NutriPlan. It has simplified the way I plan my meals and track my progress. The ability to customize layouts and easily integrate recipes has made healthy eating a breeze. It's been a true lifesaver!"
+            "NutriPlan has made meal planning and tracking nutrition so much easier and enjoyable. The comprehensive features and user-friendly interface have helped me stay on track with my health goals. I highly recommend it to anyone looking for a convenient and effective solution."
     }
 ];
 

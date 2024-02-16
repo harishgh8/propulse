@@ -51,7 +51,6 @@ const DATA = [
 
 export const Footer = () => {
     const date = new Date();
-    const year = date.getFullYear();
 
     return (
         <footer id="footer" className="bg-white">
@@ -60,25 +59,25 @@ export const Footer = () => {
                 <div className="footer--content-container py-16">
                     <div className="footer-links mb-12 grid grid-cols-2 gap-8 md:mb-16 md:grid-cols-8 lg:grid-cols-12">
                         <div className="col-span-6">
-                            <div className="footer--logo grid gap-8">
+                            <div className="footer--logo grid gap-4">
                                 <Link href="/">
                                     <Image
-                                        src="/nutritrack.svg"
+                                        src="/propulseIcon2.svg"
                                         alt="logo"
-                                        className="h-10 w-auto"
+                                        className="h-20 w-auto"
                                         height="25"
                                         width="100"
                                         priority
                                     />
                                 </Link>
-                                {/* Get Template button; remove if not used */}
+                                {/* Enroll now button; remove if not used */}
                                 <ButtonGroup alignment="left">
                                     <a
                                         role="button"
                                         href="https://github.com/christian-luntok/nutritrack"
                                         className="btn btn--secondary"
                                     >
-                                        Get Template
+                                        Enroll now
                                         <Icon icon="material-symbols:arrow-forward-rounded" />
                                     </a>
                                 </ButtonGroup>
@@ -127,17 +126,7 @@ export const Footer = () => {
             <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
-                        © {year} Nutritrack. All rights reserved{" - "}
-                        <span className="font-normal">
-                            A template by{" "}
-                            <Link
-                                className="transition-colors duration-300 hover:underline"
-                                href="https://chrstnl.com"
-                                target="_blank"
-                            >
-                                chrstnl.
-                            </Link>
-                        </span>
+                        © 2023 ProPulse Nursing. All rights reserved
                     </p>
                 </div>
             </SectionContainer>
