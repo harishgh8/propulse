@@ -6,7 +6,7 @@
   NutriTrack - A landing page template 🚀
 </h1>
 
-NutriTrack is a user-friendly landing page template with NextJS and TailwindCSS. It's easy to customize, allowing you to create a minimalistic site that fits your style using its versatile components.
+Propulse is a user-friendly landing page template with NextJS and TailwindCSS. It's easy to customize, allowing you to create a minimalistic site that fits your style using its versatile components.
 
 <hr>
 
@@ -34,11 +34,7 @@ npm run build
 
 You also want to make sure the publish directory is out.
 
-## Lighthouse Score
 
-NutriTrack scores 100/100 in the Lighthouse performance audit.
-
-![NutriTrack Lighthouse Score](/lighthouse-score.png)
 
 ## Demo
 
