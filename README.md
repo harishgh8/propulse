@@ -36,7 +36,7 @@ You also want to make sure the publish directory is out.
 
 ## Demo
 
-Check out the [Demo](https://nutritrack.chrstnl.com/), hosted on Vercel.
+Check out the [Demo](https://harishg.netlify.app/), hosted on Vercel.
 
 ## Commands
 
@@ -56,7 +56,7 @@ env: {
   siteTitle: 'Your Company',
   siteDescription: 'Your company description.',
   siteKeywords: 'your company keywords',
-  siteUrl: 'https://nutritrack.chrstnl.com/',
+  siteUrl: 'https://harishg.netlify.app/',
   siteImagePreviewUrl: '/images/preview.jpeg',
   twitterHandle: '@your_handle'
 }

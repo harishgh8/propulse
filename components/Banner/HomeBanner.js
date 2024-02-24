@@ -12,14 +12,6 @@ export const HomeBanner = () => {
     return (
         <SectionContainer className="page-banner--container py-16">
             <SectionContainer className="page-banner--inner-container wrap wrap-px z-10">
-                {/* Appear First */}
-                {/* <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
-                    <BadgeGroup alignment="center">
-                        <BadgeMessage>Discover NutriTrack!</BadgeMessage>
-                        <BadgeIcon icon="game-icons:meal" />
-                    </BadgeGroup>
-                </MotionBTTContainer> */}
-                {/* Appear Second */}
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
                     <PageTitle className="text-center mx-auto" type="heavy">
                         Welcome to Propulse Next Gen learning

@@ -71,13 +71,13 @@ export const Footer = () => {
                                     />
                                 </Link>
                                 {/* Enroll now button; remove if not used */}
-                                <ButtonGroup alignment="left">
+                                <ButtonGroup className="hidden md:block">
                                     <a
                                         role="button"
-                                        href="https://github.com/christian-luntok/nutritrack"
-                                        className="btn btn--secondary"
+                                        href="/Enroll"
+                                        className="btn btn--secondary ml-4"
                                     >
-                                        Enroll now
+                                        Next Gen NCLEX Course
                                         <Icon icon="material-symbols:arrow-forward-rounded" />
                                     </a>
                                 </ButtonGroup>
