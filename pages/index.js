@@ -169,7 +169,7 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Got some burning questions about NutriTrack?{" "}
+                                Got some burning questions about Next Gen NCLEX?{" "}
                                 <br></br>
                                 <br></br>No worries! We&apos;ve got the answers
                                 you need:
@@ -178,7 +178,7 @@ export default function Home() {
                         </SectionContainer>
                     </MotionBTTContainer>
                 </SectionContainer>
-                <ScrollToTopBtn />
+                {/* <ScrollToTopBtn /> */}
             </div>
         </Layout>
     );

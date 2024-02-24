@@ -44,17 +44,17 @@ export const faqData = [
 export const blogPostsData = [
     {
         id: uuid(),
-        title: "How different is next gen NCLEX!",
+        title: "All about next gen NCLEX!",
         date: "Feb 15, 2024",
-        isOpen: false,
+        isOpen: true,
         date: "February 10, 2024",
-        image: "/blogpost1.svg"
+        image: "/allAboutNCLEX.svg"
     },
     {
         id: uuid(),
         title: "How different is next gen NCLEX!",
         date: "Feb 15, 2024",
-        isOpen: false,
+        isOpen: true,
         date: "February 10, 2024",
         image: "/blogpost1.svg"
     }

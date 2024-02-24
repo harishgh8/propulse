@@ -34,7 +34,7 @@ export const Header = () => {
                             href="/Enroll"
                             className="btn btn--secondary ml-4"
                         >
-                            Enroll now
+                            Next Gen NCLEX Course
                             <Icon icon="material-symbols:arrow-forward-rounded" />
                         </a>
                     </ButtonGroup>

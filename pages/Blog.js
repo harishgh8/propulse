@@ -15,7 +15,9 @@ const BlogPost = ({ title, date, content, image, isLast }) => {
 
     return (
         <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
-            <div className={`border-b ${isLast ? "" : "mb-4"} `}>
+            <div
+                className={`border-b drop-shadow-xl  ${isLast ? "" : "mb-4"} `}
+            >
                 <div className="cursor-pointer" onClick={toggleCollapse}>
                     <h2 className="text-xxl text-gray-800 font-semibold pt-5  pl-2 m-0">
                         {title}
@@ -23,18 +25,16 @@ const BlogPost = ({ title, date, content, image, isLast }) => {
                     <p className="text-sm text-gray-500 pt-1 pl-2">{date}</p>
                 </div>
 
-                {!isCollapsed && (
-                    <div>
-                        {image && (
-                            <img
-                                src={image}
-                                alt={title}
-                                className="w-full h-auto mb-2 pt-2 rounded-md"
-                            />
-                        )}
-                        <p className="mt-1">{content}</p>
-                    </div>
-                )}
+                <div>
+                    {image && (
+                        <img
+                            src={image}
+                            alt={title}
+                            className="w-full h-auto mb-2 pt-2 rounded-md"
+                        />
+                    )}
+                    <p className="mt-1">{content}</p>
+                </div>
             </div>
         </MotionBTTContainer>
     );
@@ -45,16 +45,13 @@ export default function Blog() {
 
     return (
         <Layout className="">
-            <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 mt-10 ">
+            <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 mt-10 max-w-4xl mx-auto">
                 <SectionContainer className="components--container wrap wrap-px grid gap-8 sm:gap-24">
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
-                        {/* <SectionContainer
-                            id="blog"
-                            className="bg-gray-200 rounded-3xl p-4"
-                        >
-                            {blogPosts.map((post, index) => (
+                        <SectionContainer id="blog" className="rounded-3xl p-4">
+                            {blogPostsData.map((post, index) => (
                                 <BlogPost
                                     key={index}
                                     title={post.title}
@@ -63,8 +60,8 @@ export default function Blog() {
                                     image={post.image}
                                 />
                             ))}
-                        </SectionContainer> */}
-                        <Accordion data={blogPostsData} />
+                        </SectionContainer>
+                        {/* <Accordion data={blogPostsData} /> */}
                     </MotionBTTContainer>
                 </SectionContainer>
             </div>

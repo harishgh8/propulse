@@ -1,13 +1,9 @@
 {
-    "name": "nutritrack",
+    "name": "Propulse Next Gen",
     "version": "1.1.0",
-    "description": "NutriTrack - A customizable landing page theme built with AstroJS and TailwindCSS, specifically designed for Notion creators.",
+    "description": "ProPulse Next Gen Pro: Your ultimate NCLEX solution. Let's conquer the Next Gen NCLEX journey together",
     "main": "index.js",
     "private": true,
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/christian-luntok/nutritrack.git"
-    },
     "keywords": [
         "next",
         "nextjs",
@@ -17,8 +13,7 @@
         "tailwindcss",
         "tailwind"
     ],
-    "author": "chrstnl",
-    "homepage": "https://chrstnl.com/",
+    "author": "harish",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
@@ -36,6 +31,7 @@
         "@iconify/react": "^4.0.1",
         "@next/font": "^13.1.2",
         "@vercel/og": "^0.0.21",
+        "axios": "^1.6.7",
         "eslint-config-next": "13.1.2",
         "framer-motion": "^10.18.0",
         "micro-cors": "^0.1.1",
@@ -45,11 +41,13 @@
         "next-sitemap": "^3.1.44",
         "numeral": "^2.0.6",
         "openai": "^3.2.1",
+        "raw-body": "^2.5.2",
         "react": "18.2.0",
         "react-dom": "18.2.0",
         "react-hot-toast": "^2.4.0",
         "react-whatsapp-chat-widget": "^1.1.6",
         "resize-observer-polyfill": "^1.5.1",
+        "stripe": "^14.18.0",
         "uuid": "^8.3.2"
     },
     "devDependencies": {
