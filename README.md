@@ -1,12 +1,12 @@
 <div align="center">
-  <img alt="NutriTrack logo" src="/public/nutritrack.svg" width="100" />
+  <img alt="NutriTrack logo" src="/public/propulseIcon2.svg" width="100" />
 </div>
 
 <h1 align="center">
-  NutriTrack - A landing page template 🚀
+  Propulse - A landing page template 🚀
 </h1>
 
-NutriTrack is a user-friendly landing page template with NextJS and TailwindCSS. It's easy to customize, allowing you to create a minimalistic site that fits your style using its versatile components.
+Propulse is a user-friendly landing page template with NextJS and TailwindCSS. It's easy to customize, allowing you to create a minimalistic site that fits your style using its versatile components.
 
 <hr>
 
@@ -34,11 +34,7 @@ npm run build
 
 You also want to make sure the publish directory is out.
 
-## Lighthouse Score
 
-NutriTrack scores 100/100 in the Lighthouse performance audit.
-
-![NutriTrack Lighthouse Score](/lighthouse-score.png)
 
 ## Demo
 
@@ -76,12 +72,4 @@ You can update the colors in tailwind.config.js file.
 
 Update the manifest.json file and the icons under the public/images/icons folder.
 
-You can use free tools online such as https://realfavicongenerator.net/ to quickly generate all the different icon sizes and favicon.ico file.
 
-## Feedback and Suggestions
-
-If you have any suggestions/feedback feel free to open an issue if you find bugs or want to request new features.
-
----
-
-Made by [chrstnl](https://chrstnl.com/)
