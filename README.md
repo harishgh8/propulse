@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="NutriTrack logo" src="/public/propulseIcon2.svg" width="100" />
+  <img alt="propulse logo" src="/public/propulseIcon2.svg" width="100" />
 </div>
 
 <h1 align="center">
@@ -10,7 +10,7 @@ Propulse is a user-friendly landing page template with NextJS and TailwindCSS. I
 
 <hr>
 
-![NutriTrack Mockup](/public/nutritrack.png)
+![propulse Mockup](/public/propulseCover.png)
 
 ## Key Features:
 
@@ -33,8 +33,6 @@ npm run build
 ```
 
 You also want to make sure the publish directory is out.
-
-
 
 ## Demo
 
@@ -71,5 +69,3 @@ You can update the colors in tailwind.config.js file.
 ## Update Favicon
 
 Update the manifest.json file and the icons under the public/images/icons folder.
-
-
