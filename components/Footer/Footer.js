@@ -77,7 +77,7 @@ export const Footer = () => {
                                         href="/Enroll"
                                         className="btn btn--secondary ml-4"
                                     >
-                                        Next Gen NCLEX Course
+                                        NG NCLEX
                                         <Icon icon="material-symbols:arrow-forward-rounded" />
                                     </a>
                                 </ButtonGroup>
