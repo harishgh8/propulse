@@ -58,7 +58,7 @@ export default function Contact() {
                         <SectionContainer id="contactus" className="features">
                             <span className="max-w-[800px] md:w-[800px] flex flex-col justify-top pt-20">
                                 <div className="w-full md:w-1/2 pb-20 sm:pb-0 sm:pl-20">
-                                    <h1 className="text-3xl font-bold mb-4 sm:text-left text-[#ea8e48ef]">
+                                    <h1 className="text-3xl font-bold mb-4 sm:text-left text-[#FFA929]">
                                         Send us message
                                     </h1>
 
@@ -108,7 +108,7 @@ export default function Contact() {
                                                 onHoverStart={(e) => {}}
                                                 onHoverEnd={(e) => {}}
                                                 whileTap={{ scale: 0.9 }}
-                                                className={`bg-[#ea8e48ef] text-black py-2 px-4 rounded-md font-medium ${
+                                                className={`bg-[#FFA929] text-black py-2 px-4 rounded-md font-medium ${
                                                     messageSent
                                                         ? "animate-pulse"
                                                         : ""

@@ -28,15 +28,21 @@ export const HomeBanner = () => {
                     </Content>
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
-                            <Button href="#features">Features</Button>
-                            <a
-                                role="button"
-                                href="/Enroll"
-                                className="btn btn--secondary"
+                            <Button
+                                href="#features"
+                                className="btn btn--tertiary"
                             >
-                                Enroll now
-                                <Icon icon="material-symbols:arrow-forward-rounded" />
-                            </a>
+                                Features
+                            </Button>
+                        </ButtonGroup>
+
+                        <ButtonGroup className="hidden md:block mt-2">
+                            <Link href="/Enroll">
+                                <div className="btn btn--secondary ml-4">
+                                    NG NCLEX
+                                    <Icon icon="material-symbols:arrow-forward-rounded" />
+                                </div>
+                            </Link>
                         </ButtonGroup>
                     </div>
                 </MotionBTTContainer>

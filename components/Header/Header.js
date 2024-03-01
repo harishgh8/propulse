@@ -28,15 +28,13 @@ export const Header = () => {
                 </div>
                 <SectionContainer className="flex items-center ml-auto">
                     <Nav />
-                    <ButtonGroup className="hidden md:block">
-                        <a
-                            role="button"
-                            href="/Enroll"
-                            className="btn btn--secondary ml-4"
-                        >
-                            NG NCLEX
-                            <Icon icon="material-symbols:arrow-forward-rounded" />
-                        </a>
+                    <ButtonGroup className="hidden md:block mt-2">
+                        <Link href="/Enroll">
+                            <div className="btn btn--secondary ml-4">
+                                NG NCLEX
+                                <Icon icon="material-symbols:arrow-forward-rounded" />
+                            </div>
+                        </Link>
                     </ButtonGroup>
                 </SectionContainer>
             </SectionContainer>

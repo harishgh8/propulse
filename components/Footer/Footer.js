@@ -1,7 +1,7 @@
 import { SectionContainer } from "@components/Section";
 import Link from "next/link";
 import Image from "next/image";
-import { ButtonGroup } from "@components/Button";
+import { ButtonGroup, Button } from "@components/Button";
 import { Icon } from "@iconify/react";
 
 const DATA = [
@@ -71,15 +71,14 @@ export const Footer = () => {
                                     />
                                 </Link>
                                 {/* Enroll now button; remove if not used */}
-                                <ButtonGroup className="hidden md:block">
-                                    <a
-                                        role="button"
-                                        href="/Enroll"
-                                        className="btn btn--secondary ml-4"
-                                    >
-                                        NG NCLEX
-                                        <Icon icon="material-symbols:arrow-forward-rounded" />
-                                    </a>
+
+                                <ButtonGroup className="hidden md:block mt-2">
+                                    <Link href="/Enroll">
+                                        <div className="btn btn--secondary ml-4">
+                                            NG NCLEX
+                                            <Icon icon="material-symbols:arrow-forward-rounded" />
+                                        </div>
+                                    </Link>
                                 </ButtonGroup>
                             </div>
                         </div>

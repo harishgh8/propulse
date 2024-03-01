@@ -1,6 +1,7 @@
 import { Layout } from "@components/Layout";
 import { SectionContainer } from "@components/Section";
 import { Button, ButtonGroup } from "@components/Button";
+import Link from "next/link";
 
 export default function Enroll() {
     // Example blog posts data
@@ -19,14 +20,15 @@ export default function Enroll() {
                                 />
                             </div>
                         </div>
-                        <ButtonGroup alignment="center">
-                            <a
-                                role="button"
-                                href="https://buy.stripe.com/test_9AQ5mY6vw3fj6oo001"
-                                className="btn btn--secondary"
-                            >
-                                Enroll now
-                            </a>
+
+                        <ButtonGroup className="hidden md:flex justify-center mt-2">
+                            {" "}
+                            {/* Change to flex and justify-center */}
+                            <Link href="https://buy.stripe.com/test_9AQ5mY6vw3fj6oo001">
+                                <div className="btn btn--secondary">
+                                    Enroll now
+                                </div>
+                            </Link>
                         </ButtonGroup>
                     </SectionContainer>
                 </SectionContainer>
