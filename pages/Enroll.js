@@ -13,7 +13,7 @@ export default function Enroll() {
                         <div className="border-b drop-shadow-xl flex flex-col items-center">
                             <div>
                                 <img
-                                    src="nextGenPro.svg"
+                                    src="nextGenPlan.png"
                                     alt="enroll"
                                     className="w-full h-auto mb-2 pt-2 rounded-md"
                                 />

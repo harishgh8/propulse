@@ -10,7 +10,7 @@ const ContentImageData = [
         content:
             "Dive deep into a meticulously crafted curriculum covering all aspects of the Next Generation NCLEX exam.",
         align: "right",
-        image: "/features1.png"
+        image: "/features1.jpg"
     },
     {
         id: uuid(),
@@ -18,7 +18,7 @@ const ContentImageData = [
         content:
             "Learn from seasoned nursing professionals dedicated to guiding you through every step of your journey.",
         align: "left",
-        image: "/features2.png"
+        image: "/features2.jpg"
     },
     {
         id: uuid(),
@@ -26,7 +26,7 @@ const ContentImageData = [
         content:
             "Engage in dynamic, interactive sessions that make studying enjoyable and effective.",
         align: "right",
-        image: "/features2.png"
+        image: "/features3.jpg"
     },
     {
         id: uuid(),
@@ -34,7 +34,7 @@ const ContentImageData = [
         content:
             "Benefit from one-on-one mentoring sessions, ensuring you're on the right track to success.",
         align: "left",
-        image: "/features2.png"
+        image: "/features4.jpg"
     }
 ];
 
