@@ -4,9 +4,28 @@ import { PageTitle } from "@components/Title";
 import { SectionContainer } from "@components/Section";
 import { MotionBTTContainer, MotionInfiniteImage } from "@components/Motion";
 import { Accordion } from "@components/Accordion";
-import { blogPostsData } from "@components/Accordion/accordionData";
-import Image from "next/image";
 
+import Image from "next/image";
+import { v4 as uuid } from "uuid";
+
+const blogPostsData = [
+    {
+        id: uuid(),
+        title: "All about next gen NCLEX!",
+        date: "Feb 15, 2024",
+        isOpen: true,
+        date: "February 10, 2024",
+        image: "/aboutNclex.png"
+    },
+    {
+        id: uuid(),
+        title: "How different is next gen NCLEX!",
+        date: "Feb 15, 2024",
+        isOpen: true,
+        date: "February 10, 2024",
+        image: "/blogpost1.svg"
+    }
+];
 const BlogPost = ({ title, date, content, image, isLast }) => {
     const [isCollapsed, setIsCollapsed] = useState(true);
 
