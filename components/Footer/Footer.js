@@ -62,7 +62,7 @@ export const Footer = () => {
                             <div className="footer--logo grid gap-4">
                                 <Link href="/">
                                     <Image
-                                        src="/propulse_logo.svg"
+                                        src="/propulselogo.svg"
                                         alt="logo"
                                         className="h-20 w-auto"
                                         height="25"
