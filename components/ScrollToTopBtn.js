@@ -38,7 +38,7 @@ function ScrollToTopBtn() {
         <button
             className={`${
                 isVisible ? "block" : "hidden"
-            } fixed bottom-20 right-5 bg-orange-300 text-white rounded-full p-5 cursor-pointer transition-opacity hover:bg-black opacity-50 sm:opacity-50 flex items-center justify-center z-10`}
+            } fixed bottom-20 right-5 bg-cyan-600 text-white rounded-full p-5 cursor-pointer transition-opacity hover:bg-black opacity-50 sm:opacity-50 flex items-center justify-center z-10`}
             onClick={scrollToTop}
         >
             <UpOutlined />

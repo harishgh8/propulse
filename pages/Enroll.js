@@ -22,12 +22,13 @@ export default function Enroll() {
                                     className="w-full h-auto mb-2 pt-2 rounded-md"
                                 />
                             </div>
+
                             <ButtonGroup className="hidden md:flex justify-center mt-2 ml-4">
                                 {" "}
                                 {/* Added ml-4 for margin */}
                                 <Link href="https://buy.stripe.com/test_9AQ5mY6vw3fj6oo001">
                                     <div className="btn btn--secondary text-white-50">
-                                        Enroll now
+                                        Enroll
                                     </div>
                                 </Link>
                             </ButtonGroup>

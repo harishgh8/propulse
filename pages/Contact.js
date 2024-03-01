@@ -58,7 +58,7 @@ export default function Contact() {
                         <SectionContainer id="contactus" className="features">
                             <span className="max-w-[800px] md:w-[800px] flex flex-col justify-top pt-20">
                                 <div className="w-full md:w-1/2 pb-20 sm:pb-0 sm:pl-20">
-                                    <h1 className="text-3xl font-bold mb-4 sm:text-left text-[#FFA929]">
+                                    <h1 className="text-3xl font-bold mb-4 sm:text-left text-cyan-500">
                                         Send us message
                                     </h1>
 
@@ -108,7 +108,7 @@ export default function Contact() {
                                                 onHoverStart={(e) => {}}
                                                 onHoverEnd={(e) => {}}
                                                 whileTap={{ scale: 0.9 }}
-                                                className={`bg-[#FFA929] text-black py-2 px-4 rounded-md font-medium ${
+                                                className={`bg-cyan-500 text-white py-2 px-4 rounded-md font-medium ${
                                                     messageSent
                                                         ? "animate-pulse"
                                                         : ""
@@ -125,7 +125,7 @@ export default function Contact() {
                                     </form>
                                     {messageSent && (
                                         <div>
-                                            <div className="bg-orange-500 text-white font-bold rounded-md px-4 py-2">
+                                            <div className="bg-cyan-500 text-white font-bold rounded-md px-4 py-2">
                                                 Thank you, we will get back to
                                                 you soon.
                                             </div>
