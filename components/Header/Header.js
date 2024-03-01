@@ -16,7 +16,7 @@ export const Header = () => {
                     <h1 className="logo mb-0">
                         <Link href="/">
                             <Image
-                                src="/propulseIcon2.svg"
+                                src="/propulse_logo.svg"
                                 alt="logo"
                                 className="h-20 w-auto"
                                 height="24"
@@ -28,9 +28,9 @@ export const Header = () => {
                 </div>
                 <SectionContainer className="flex items-center ml-auto">
                     <Nav />
-                    <ButtonGroup className="hidden md:block mt-2">
+                    <ButtonGroup className="hidden md:block mt-2 ">
                         <Link href="/Enroll">
-                            <div className="btn btn--secondary ml-4">
+                            <div className="btn btn--secondary ml-4 text-white">
                                 NG NCLEX
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
                             </div>

@@ -24,7 +24,7 @@ export const WhatsappComp = () => {
             // headerIcon={propulseIcon2}
             // headerIconColor="pink"
             headerTxtColor="black"
-            headerBgColor="#efa348"
+            headerBgColor="#3ec1d5"
             headerIconBgColor="rgb(255 197 110 / var(--tw-bg-opacity))"
             headerTitle="Propulse Next Gen"
             headerCaption="Online"
@@ -36,9 +36,9 @@ export const WhatsappComp = () => {
                     <br /> We are here to help you.
                 </>
             }
-            footerBgColor="#efa348"
+            footerBgColor="#3ec1d5"
             placeholder="Type a message.."
-            btnBgColor="#25D366"
+            btnBgColor="#319aaa"
             btnTxt="Start Chat"
             btnTxtColor="black"
         />
