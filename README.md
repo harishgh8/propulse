@@ -20,7 +20,7 @@ Propulse is a user-friendly landing page template with NextJS and TailwindCSS. I
 
 ## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example).
+Deploy the example using [Vercel](https://propulse-git-main-harishgh8.vercel.app/).
 
 If you want to deploy on Netlify, use the following build command under site settings:
 
@@ -32,7 +32,7 @@ You also want to make sure the publish directory is out.
 
 ## Demo
 
-Check out the [Demo](https://harishg.netlify.app/), hosted on Vercel.
+Check out the [Demo](https://propulse-git-main-harishgh8.vercel.app/), hosted on Vercel.
 
 ## Commands
 
@@ -52,7 +52,7 @@ env: {
   siteTitle: "Your Company",
   siteDescription: "Your company description.",
   siteKeywords: "your company keywords",
-  siteUrl: "https://harishg.netlify.app/",
+  siteUrl: "https://propulse-git-main-harishgh8.vercel.app/",
   siteImagePreviewUrl: "/images/preview.jpeg",
   twitterHandle: "@your_handle"
 }
