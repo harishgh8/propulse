@@ -3,6 +3,7 @@ import { Icon } from "@iconify/react";
 import { useState } from "react";
 import { v4 as uuid } from "uuid";
 import clsx from "clsx";
+import Image from "next/image";
 
 const accordionItemType = {
     top: "rounded-t-lg",
@@ -69,9 +70,11 @@ export const Accordion = ({ data }) => {
                     >
                         {accordionItem.image && (
                             <div>
-                                <img
+                                <Image
                                     src={accordionItem.image}
                                     alt={accordionItem.title}
+                                    width="full"
+                                    height="auto"
                                     className="w-full h-auto mb-2 pt-2 rounded-md"
                                 />
                             </div>

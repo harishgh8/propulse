@@ -2,6 +2,7 @@ import { Layout } from "@components/Layout";
 import { SectionContainer } from "@components/Section";
 import { Button, ButtonGroup } from "@components/Button";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Enroll() {
     // Example blog posts data
@@ -13,9 +14,11 @@ export default function Enroll() {
                     <SectionContainer id="blog" className="rounded-3xl p-4">
                         <div className="border-b drop-shadow-xl flex flex-col items-center">
                             <div>
-                                <img
-                                    src="nextGenPlan.png"
+                                <Image
+                                    src="/nextGenPlan.png"
                                     alt="enroll"
+                                    width="600"
+                                    height="800"
                                     className="w-full h-auto mb-2 pt-2 rounded-md"
                                 />
                             </div>

@@ -1,7 +1,3 @@
-<div align="center">
-  <img alt="propulse logo" src="/public/propulseIcon2.svg" width="100" />
-</div>
-
 <h1 align="center">
   Propulse - A landing page template 🚀
 </h1>

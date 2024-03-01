@@ -5,6 +5,7 @@ import { SectionContainer } from "@components/Section";
 import { MotionBTTContainer, MotionInfiniteImage } from "@components/Motion";
 import { Accordion } from "@components/Accordion";
 import { blogPostsData } from "@components/Accordion/accordionData";
+import Image from "next/image";
 
 const BlogPost = ({ title, date, content, image, isLast }) => {
     const [isCollapsed, setIsCollapsed] = useState(true);
@@ -27,9 +28,11 @@ const BlogPost = ({ title, date, content, image, isLast }) => {
 
                 <div>
                     {image && (
-                        <img
+                        <Image
                             src={image}
                             alt={title}
+                            width="600"
+                            height="800"
                             className="w-full h-auto mb-2 pt-2 rounded-md"
                         />
                     )}
