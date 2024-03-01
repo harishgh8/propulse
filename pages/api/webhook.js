@@ -58,7 +58,9 @@ export default async function handler(req, res) {
                 );
                 console.log("created", event.data.object.created);
             } catch (error) {
-                console.log("Handling when you're unable to save an order");
+                console.log(
+                    "Handling when you&apos;re unable to save an order"
+                );
             }
         }
 

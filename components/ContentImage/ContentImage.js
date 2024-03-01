@@ -32,7 +32,7 @@ const ContentImageData = [
         id: uuid(),
         title: "Personalized Support",
         content:
-            "Benefit from one-on-one mentoring sessions, ensuring you're on the right track to success.",
+            "Benefit from one-on-one mentoring sessions, ensuring you are on the right track to success.",
         align: "left",
         image: "/features4.jpg"
     }

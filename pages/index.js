@@ -52,7 +52,7 @@ export default function Home() {
                                     nursing career. Our tailored Next Generation
                                     NCLEX preparation program, coupled with
                                     personalized mentoring, is designed to
-                                    propel you toward triumph. Here's what sets
+                                    propel you toward triumph. Here is what sets
                                     us apart:
                                 </p>
                             </Content>

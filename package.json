@@ -1,7 +1,7 @@
 {
     "name": "Propulse Next Gen",
     "version": "1.1.0",
-    "description": "ProPulse Next Gen Pro: Your ultimate NCLEX solution. Let's conquer the Next Gen NCLEX journey together",
+    "description": "ProPulse Next Gen Pro: Your ultimate NCLEX solution. Let us conquer the Next Gen NCLEX journey together",
     "main": "index.js",
     "private": true,
     "keywords": [

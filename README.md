@@ -49,12 +49,12 @@ All commands are run from the root of the project, from a terminal:
 
 ```js
 env: {
-  siteTitle: 'Your Company',
-  siteDescription: 'Your company description.',
-  siteKeywords: 'your company keywords',
-  siteUrl: 'https://harishg.netlify.app/',
-  siteImagePreviewUrl: '/images/preview.jpeg',
-  twitterHandle: '@your_handle'
+  siteTitle: "Your Company",
+  siteDescription: "Your company description.",
+  siteKeywords: "your company keywords",
+  siteUrl: "https://harishg.netlify.app/",
+  siteImagePreviewUrl: "/images/preview.jpeg",
+  twitterHandle: "@your_handle"
 }
 ```
 
